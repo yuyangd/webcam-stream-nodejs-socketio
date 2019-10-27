@@ -22,5 +22,5 @@ io.on('connection',function(socket){
 });
 
 http.listen(port,function(){
-    log.info('Servidor escuchando por el puerto %s',port);
+    log.info('Server listen on %s',port);
 });
